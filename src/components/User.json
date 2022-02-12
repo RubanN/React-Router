@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Harry Potter",
+    "city": "London",
+    "Profession": "Devloper",
+    "salary": "20000"
+  },
+  {
+    "id": 1,
+    "name": "Don Quixote",
+    "city": "Madrid",
+    "Profession": "Devloper",
+    "salary": "20000"
+  },
+  {
+    "id": 1,
+    "name": "Ruban",
+    "city": "Paris",
+    "Profession": "Devloper",
+    "salary": "20000"
+  },
+  {
+    "id": 1,
+    "name": "Mouil",
+    "city": "Alabama",
+    "Profession": "Devloper",
+    "salary": "20000"
+  }
+  {
+    "id": 1,
+    "name": "Indhu",
+    "city": "Alabama",
+    "Profession": "Devloper",
+    "salary": "20000"
+  }
+  {
+    "id": 1,
+    "name": "Anu",
+    "city": "Alabama",
+    "Profession": "Devloper",
+    "salary": "20000"
+  }
+  {
+    "id": 1,
+    "name": "Rosa Park",
+    "city": "Alabama",
+    "Profession": "Devloper",
+    "salary": "20000"
+  }
+  {
+    "id": 1,
+    "name": "Kohil",
+    "city": "Alabama",
+    "Profession": "Devloper",
+    "salary": "20000"
+  }
+  {
+    "id": 1,
+    "name": "Pandya",
+    "city": "Alabama",
+    "Profession": "Devloper",
+    "salary": "20000"
+  }
+]
