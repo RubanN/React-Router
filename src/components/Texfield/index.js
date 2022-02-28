@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TextField as MuiTextField, Typography, Box } from '@material-ui/core'
-// import classnames from 'classnames'
+import classnames from 'classnames'
 import PropTypes from 'prop-types'
 import useStyles from './styles'
 
@@ -15,7 +15,10 @@ const TextField = props => {
         theme,
         helperText,
         endAdornment,
+        textstyle,
+        additionalClassNames,
         error,
+        multiline,
         ...rest
     } = props;
     return (
@@ -26,7 +29,10 @@ const TextField = props => {
                 placeholder={placeholder}
                 helperText={helperText}
                 variant="outlined"
+                multiline={multiline}
+                textstyle={textstyle}
                 endAdornment={endAdornment}
+                className={classnames(textstyle)}
                 error={error}
                 {...rest}
             />
@@ -36,12 +42,16 @@ const TextField = props => {
 };
 TextField.propTypes = {
     label: PropTypes.string,
+    multiline: PropTypes.bool,
     name: PropTypes.string,
     type: PropTypes.string,
     placeholder: PropTypes.string,
     handleChange: PropTypes.func,
     endAdornment: PropTypes.node,
     theme: PropTypes.string,
+    additionalClassNames: PropTypes.string,
+    textstyle: PropTypes.string,
+
 
 }
 TextField.defaultProps = {
@@ -50,6 +60,9 @@ TextField.defaultProps = {
     placeholder: '',
     theme: 'light',
     size: 'small',
+    additionalClassNames: '',
+    textstyle: "",
+
 
 }
 export default TextField;

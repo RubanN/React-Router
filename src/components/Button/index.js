@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button as MuiButton } from '@material-ui/core'
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const Button = props => {
     const { label, style, ...rest } = props
@@ -11,17 +11,18 @@ const Button = props => {
         </MuiButton>
     )
 };
-Button.PropTypes = {
+Button.propTypes = {
     /**
      * The label to be rendered in the button
      */
+    addContact: PropTypes.func.isRequired,
     label: PropTypes.string,
     style: PropTypes.object,
     className: PropTypes.string,
     handleChange: PropTypes.func,
 }
 Button.defaultProps = {
-    label: 'btn',
+    label: 'Button',
     style: {},
     variant: 'contained',
     size: 'medium',
