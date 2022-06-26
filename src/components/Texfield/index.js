@@ -7,6 +7,7 @@ import useStyles from './styles'
 
 
 const TextField = props => {
+    const classes = useStyles()
     const {
         label,
         name,
@@ -25,6 +26,7 @@ const TextField = props => {
         <Box>
             <MuiTextField
                 name={name}
+                label={label}
                 type={type}
                 placeholder={placeholder}
                 helperText={helperText}
@@ -32,7 +34,7 @@ const TextField = props => {
                 multiline={multiline}
                 textstyle={textstyle}
                 endAdornment={endAdornment}
-                className={classnames(textstyle)}
+                className={classes.textStyles}
                 error={error}
                 {...rest}
             />

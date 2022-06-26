@@ -1,0 +1,101 @@
+{
+    "data": [
+        {
+            "type": "Category",
+            "values": [
+                "Handbags & Luggage"
+            ]
+        },
+        {
+            "type": "Color",
+            "values": [
+                "Black",
+                "Blue",
+                "White",
+                "Pink",
+                "Red",
+                "Gray"
+            ]
+        },
+        {
+            "type": "Gender",
+            "values": [
+                "Womens's",
+                "Men's",
+                "Unisex",
+                "Girls",
+                "Boys"
+            ]
+        },
+        {
+            "type": "Brand",
+            "values": [
+                "Kate Spade",
+                "Michael Kors",
+                "Louis Vuitton",
+                "Dooney & Bourke",
+                "Gucci"
+            ]
+        },
+        {
+            "type": "Material",
+            "values": [
+                "Leather",
+                "Polyester",
+                "Nylon",
+                "Mesh",
+                "Suede"
+            ]
+        },
+        {
+            "type": "Features",
+            "values": [
+                "Lightweight",
+                "Reversible",
+                "Vegan",
+                "Key Clip",
+                "Insulated",
+                "Coin Pocket",
+                "Washable",
+                "Laptop Sleeve",
+                "Reflective",
+                "Eco-Friendly"
+            ]
+        },
+        {
+            "type": "Pattern",
+            "values": [
+                "Logo",
+                "Metallic",
+                "Quilted",
+                "Plaid",
+                "Polka Dot",
+                "Stripes",
+                "Patchwork",
+                "Animal Print",
+                "Embroidered",
+                "Floral Print"
+            ]
+        },
+        {
+            "type": "Brand",
+            "values": [
+                "Kate Spade",
+                "Michael Kors",
+                "Louis Vuitton",
+                "Dooney & Bourke",
+                "Gucci"
+            ]
+        },
+        {
+            "type": "Brand",
+            "values": [
+                "Kate Spade",
+                "Michael Kors",
+                "Louis Vuitton",
+                "Dooney & Bourke",
+                "Gucci"
+            ]
+        }
+    ]
+}

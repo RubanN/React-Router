@@ -7,7 +7,7 @@ import useStyles from './styles'
 
 
 const SearchBar = props => {
-    const { variant, size, placeholder, className = '', style = {}, fullWidth = false, isEndAdornment, value = '', ...otherProps } = props
+    const { variant, size, placeholder, className = '', style = {}, fullWidth = false, isEndAdornment, value = '', } = props
     const classes = useStyles()
     const [val, setValue] = useStyles(value)
 
@@ -31,7 +31,7 @@ const SearchBar = props => {
             onChange={e => {
                 handleChange(e.target.value)
             }}
-            {...otherProps}
+        // {...otherProps}
 
         />
     )
